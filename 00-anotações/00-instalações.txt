@@ -1,0 +1,8 @@
+instalar:
+composer
+laragon
+git
+vscode
+HeidiSQL ( gestão de banco de dados)  (aula seção 10)
+
+Vou tentar usar o phpmyadmin

@@ -1,0 +1,11 @@
+Com o gerenciador de pacotes composer, criamos o projeto:
+
+composer create-project --prefer-dist laravel/laravel gestortarefas
+
+Criamos o versionamento GIT do projeto criado
+
+Para executar um servidor PHP Laravel ( sem banco de dados ) podemos dar o seguinte comando
+
+php artisan serve
+
+É recomendável criar uma branch para cada desenvolvedor

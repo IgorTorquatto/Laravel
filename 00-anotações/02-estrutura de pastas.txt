@@ -1,0 +1,15 @@
+O laravel funciona utilizando o padrão MVC
+
+Controller:
+Ficarão em
+app/http/controllers
+
+Model:
+Ficarão em
+app/models
+
+View:
+resources/views
+
+*Importante:
+Em routes/web.php estarão definidas nossas rotas
