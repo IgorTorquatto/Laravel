@@ -1,0 +1,8 @@
+Em database/seeders
+Vamos criar uma seeder para os usuários
+
+php artisan make:seeder UsersSeeder
+
+No arquivo php UsersSeeder criado nós conseguimos criar dados para preencher a nossa tabela, após fornecer esses dados para executar nossa seed será por meio de:
+
+php artisan db:seed --class=UsersSeeder
