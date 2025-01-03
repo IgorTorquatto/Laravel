@@ -1,0 +1,8 @@
+Permite relacionar dados de uma tabela com objetos que podemos manipular na nossa linguagem de programação
+
+O controlador comunica com o Model e armazena os dados que vem do banco
+
+Model -> faz conexão com o banco
+Controller -> Usa a class do model para ter acesso aos dados do banco
+
+O model é uma forma de comunicar o controlador com o banco de dados

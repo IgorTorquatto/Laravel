@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Models\UserModel;
 
 class Main extends Controller
 {
@@ -22,7 +23,13 @@ class Main extends Controller
         // $users = DB::select('SELECT * FROM users');
         // dd($users);
 
-        $users = DB::table('users')->get()->toArray();
+        // $users = DB::table('users')->get()->toArray();
+        // dd($users);
+
+        //ORM
+        $model = new UserModel();
+        $users = $model->all();
+
         dd($users);
     }
 }
