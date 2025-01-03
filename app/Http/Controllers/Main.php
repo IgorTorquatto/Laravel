@@ -32,4 +32,13 @@ class Main extends Controller
 
         dd($users);
     }
+
+    public function view()
+    {
+        $data = [
+            'title' => 'Título da página'
+        ];
+
+        return view('home',$data);
+    }
 }

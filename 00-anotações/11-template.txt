@@ -1,0 +1,4 @@
+Em views podemos criar uma pasta template e fazer com que cada view criada extenda esse tamplete e assim podemos
+dividir o nosso código e organizar melhor nossos arquivos
+
+Existem padrões do laravel que devem ser seguidos para apresentar essa parte de views, isso pode ser verificado em resources/views
