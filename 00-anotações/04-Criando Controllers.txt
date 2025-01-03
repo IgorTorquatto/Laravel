@@ -1,0 +1,7 @@
+Dentro de app/http/controllers temo um arquivo Controller.php por padrão que servirá para quando criarmos outros controllers extender essa classe
+
+Com o comando a seguir criamos o controller Main.php na pasta dos controllers
+php artisan make:controller Main
+
+Com o controlador criado, criamos um método index nele para testarmos a impressão de um olá mundo,
+Em routes/web.php criamos a chamada ao controlador

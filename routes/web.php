@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Main;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +22,5 @@ Route::get('/', function () {
         die('Não foi possível ligar ao banco de dados. Erro: '.$e->getMessage());
     }
 });
+
+Route::get('/main', [Main::class,'index']);
