@@ -1,0 +1,15 @@
+São comandos que enviamos para o banco de dados para a criação das tabelas
+
+Para criar uma migration:
+
+php artisan make:migration create_users
+
+onde create_users é o script php que permite criar a tabela de usuários
+
+Com as migrations criadas , para executa-las basta usar o comando
+
+php artisan migrate
+
+Percebi que as tabelas estavam com diferenças nos dados datetime e timestemp logo para retroceder da criação de tabelas podemos dar o comando
+
+php artisan migrate:rollback
