@@ -1,0 +1,14 @@
+Usamos o HeidiSQL para criar um banco de dados com os seguintes parâmetros:  ( foram concedidas todas as permissões para esse usuário )
+
+db: laravel_task_manager
+user: user_laravel_task_manager
+password: 123456
+
+Para conectar a base de dados ao projeto vamos editar o arquivo .env
+
+EM DB_HOST = localhost
+DB_DATABASE = nosso nome de base de dados
+DB_USERNAME = nosso usuário
+DB_PASSWORD = nossa senha
+
+Depois testamos se a conexão ocorreu corratamente testando no código de routes/web.php

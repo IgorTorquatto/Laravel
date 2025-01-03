@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    try{
+        DB::connection()->getPdo();
+        echo "Conexão efetuada com sucesso " . DB::connection()->getDatabaseName();
+    }catch(\Exception $e){
+        die('Não foi possível ligar ao banco de dados. Erro: '.$e->getMessage());
+    }
 });
