@@ -1,0 +1,7 @@
+Cada tabela no banco de dados tem um Model associado a ela 
+
+Parar criar um model em app/models
+
+php artisan make:model UserModel
+
+Podemos criar um objeto no controller que será uma instância da classe do Model para que tenhamos a disposição vários métodos para fazer o CRUD em uma tabela
