@@ -6,7 +6,13 @@ use Illuminate\Http\Request;
 
 class Main extends Controller
 {
-    public function index(){
-        echo 'Olá Mundo';
+    public function index()
+    {
+        $data =[
+            "title" => "Título",
+            "description" => "Descrição"
+        ];
+
+        return view('view1',$data);
     }
 }

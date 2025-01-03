@@ -1,0 +1,16 @@
+Views serão chamadas pelos controladores, mas para criar uma view nós:
+
+Criamos em resources/views e usamos a extensão blase.php
+exemplo.blade.php
+
+No nosso caso, o controlador Main.php retorna a view1
+
+Por meio dos controladores podemos passar dados de variáveis para a view que retornamos, com isso vamos passar o titulo e uma descrição do nosso controlador para a view1 por meio de um array associativo.
+
+
+*Importante:
+Em Laravel estaremos lidando mais tradicionalmente com o fluxo:
+
+Uma rota routes/web.php que descreve um controller que tem um método
+O controller app/http/controller executa regras de negócio e prepara os dados para enviar para uma view
+Na view temos os dados disponíveis para usar e apresentar ao usuário
