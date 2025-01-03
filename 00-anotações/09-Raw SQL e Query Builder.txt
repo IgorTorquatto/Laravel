@@ -1,0 +1,27 @@
+Para buscar informações no banco de dados
+
+Raw SQL é o SQL puro o qual podemos escrever no nosso controller para ter acesso aos dados do nosso banco de dados
+
+ex:
+
+class Main extends Controller
+{
+
+    public function users()
+    {
+        $users = DB::select('SELECT * FROM users');
+        dd($users);
+    }
+}
+
+Query Builder:
+
+mecanismo do laravel que permite fazer querys utilizando a linguagem php
+
+ex:
+
+public function users()
+    {
+        $users = DB::table('users')->get();
+        dd($users);
+    }
